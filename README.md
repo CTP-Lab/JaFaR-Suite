@@ -190,7 +190,7 @@ Output: final synchronized CSV + final MGF
 
 ## How to cite
 
-Fauquet, J. (2026). *JasonFauquet/W4MineR-Suite: v1.0.0* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.18669140
+Fauquet, J. (2026). W4MineR-Suite (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.18669140
 
 See also:
 - `CITATION.cff`
