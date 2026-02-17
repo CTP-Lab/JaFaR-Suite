@@ -130,7 +130,7 @@ https://github.com/JasonFauquet/W4MineR-Suite
 ```r
 source("install_deps.R")
 install_deps()
-
+```
 ---
 
 ## Run the apps
