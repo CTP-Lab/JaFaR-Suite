@@ -1,7 +1,8 @@
-# W4MineR-Suite
-R/Shiny suite to convert MZmine outputs ↔ W4M tables, run univariate/multivariate stats, and export to GNPS/MetGem for molecular networking.
-
 # W4MineR Suite
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18669140.svg)](https://doi.org/10.5281/zenodo.18669140)
+
+R/Shiny suite to convert MZmine outputs ↔ W4M tables, run univariate/multivariate stats, and export to GNPS/MetGem for molecular networking.
 
 **W4MineR Suite** is a collection of **R/Shiny apps** designed to bridge **MZmine ↔ Workflow4Metabolomics (W4M/Galaxy)**, perform **univariate & multivariate statistics**, and generate **GNPS / SIRIUS / MetGem-ready files** for molecular networking and downstream annotation.
 
