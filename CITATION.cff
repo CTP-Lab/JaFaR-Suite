@@ -1,14 +1,14 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it."
-title: "W4MineR Suite"
+title: "JaFaR-Suite"
 type: software
 authors:
   - family-names: "Fauquet"
     given-names: "Jason"
 version: "1.0.0"
-date-released: "2026-02-17"
+date-released: "2026-02-19"
 doi: "10.5281/zenodo.18669140"
-url: "https://github.com/JasonFauquet/W4MineR-Suite"
+url: "https://github.com/JasonFauquet/JaFaR-Suite"
 license: "MIT"
 keywords:
   - metabolomics
