@@ -86,13 +86,13 @@ Used twice in the workflow:
 - MZmine → W4M: build W4M triplet tables from MZmine exports  
 - W4M → MZmine: convert post-W4M triplet to a MZmine-like CSV and filter the original MGF  
 
-2) **JaFaR_Untargeted_Metabolomics_Pipeline_Univariate**  
-Folder: `apps/JaFaR_Untargeted_Metabolomics_Pipeline_Univariate/`  
+2) **JaFaR_Untargeted_Metabolomics_Univariate_Pipeline**  
+Folder: `apps/JaFaR_Untargeted_Metabolomics_Univariate_Pipeline/`  
 - Univariate statistics from the post-W4M triplet  
 - Exports tables + plots to an output folder  
 
-3) **JaFaR_Untargeted_Metabolomics_Pipeline_Multivariate**  
-Folder: `apps/JaFaR_Untargeted_Metabolomics_Pipeline_Multivariate/`  
+3) **JaFaR_Untargeted_Metabolomics_Multivariat_Pipelinee**  
+Folder: `apps/JaFaR_Untargeted_Metabolomics_Multivariate_Pipeline/`  
 - Multivariate statistics/diagnostics from the post-W4M triplet  
 - Produces an imputed matrix CSV used in the final pre-annotation filtering step  
 
@@ -153,8 +153,8 @@ run_app("apps/JaFaR_MZmine_to_W4M_bidirectional")
 Other apps:
 
 ```r
-run_app("apps/JaFaR_Untargeted_Metabolomics_Pipeline_Univariate")
-run_app("apps/JaFaR_Untargeted_Metabolomics_Pipeline_Multivariate")
+run_app("apps/JaFaR_Untargeted_Metabolomics_Univariate_Pipeline")
+run_app("apps/JaFaR_Untargeted_Metabolomics_Multivariate_Pipeline")
 run_app("apps/JaFaR_CSV_and_MGF_filter_just_before_annotation")
 ```
 
