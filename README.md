@@ -29,7 +29,7 @@ R/Shiny suite to convert MZmine outputs ↔ W4M tables, run univariate/multivari
 
         │
         ▼
-(2) App: W4MineR_MZmine_to_W4M_bidirectional  [direction: MZmine → W4M]
+(2) App: JaFaR_MZmine_to_W4M_bidirectional  [direction: MZmine → W4M]
     Output: W4M triplet
       - dataMatrix.tsv
       - sampleMetadata.tsv
@@ -57,7 +57,7 @@ R/Shiny suite to convert MZmine outputs ↔ W4M tables, run univariate/multivari
         ├───────────────────────────────────────────────┐
         │                                               │
         ▼                                               ▼
-(4) App: W4MineR_MZmine_to_W4M_bidirectional       (5) Stats apps (from post-W4M triplet)
+(4) App: JaFaR_MZmine_to_W4M_bidirectional       (5) Stats apps (from post-W4M triplet)
     [direction: W4M → MZmine]                         - Univariate
     Inputs: post-W4M triplet + original MGF            - Multivariate
     Outputs:                                           Outputs include an imputed matrix CSV
@@ -67,7 +67,7 @@ R/Shiny suite to convert MZmine outputs ↔ W4M tables, run univariate/multivari
         │                                               │
         └───────────────────────────────┬───────────────┘
                                         ▼
-(6) App: W4MineR_CSV_and_MGF_filter_just_before_annotation
+(6) App: JaFaR_CSV_and_MGF_filter_just_before_annotation
     Inputs:
     - imputed matrix CSV (from multivariate stats)
     - non-annotated CSV matrix (from W4M → MZmine conversion)
@@ -80,24 +80,24 @@ R/Shiny suite to convert MZmine outputs ↔ W4M tables, run univariate/multivari
 
 ## Apps included
 
-1) **W4MineR_MZmine_to_W4M_bidirectional**  
-Folder: `apps/W4MineR_MZmine_to_W4M_bidirectional/`  
+1) **JaFaR_MZmine_to_W4M_bidirectional**  
+Folder: `apps/JaFaR_MZmine_to_W4M_bidirectional/`  
 Used twice in the workflow:
 - MZmine → W4M: build W4M triplet tables from MZmine exports  
 - W4M → MZmine: convert post-W4M triplet to a MZmine-like CSV and filter the original MGF  
 
-2) **W4MineR_Untargeted_Metabolomics_Pipeline_Univariate**  
-Folder: `apps/W4MineR_Untargeted_Metabolomics_Pipeline_Univariate/`  
+2) **JaFaR_Untargeted_Metabolomics_Pipeline_Univariate**  
+Folder: `apps/JaFaR_Untargeted_Metabolomics_Pipeline_Univariate/`  
 - Univariate statistics from the post-W4M triplet  
 - Exports tables + plots to an output folder  
 
-3) **W4MineR_Untargeted_Metabolomics_Pipeline_Multivariate**  
-Folder: `apps/W4MineR_Untargeted_Metabolomics_Pipeline_Multivariate/`  
+3) **JaFaR_Untargeted_Metabolomics_Pipeline_Multivariate**  
+Folder: `apps/JaFaR_Untargeted_Metabolomics_Pipeline_Multivariate/`  
 - Multivariate statistics/diagnostics from the post-W4M triplet  
 - Produces an imputed matrix CSV used in the final pre-annotation filtering step  
 
-4) **W4MineR_CSV_and_MGF_filter_just_before_annotation**  
-Folder: `apps/W4MineR_CSV_and_MGF_filter_just_before_annotation/`  
+4) **JaFaR_CSV_and_MGF_filter_just_before_annotation**  
+Folder: `apps/JaFaR_CSV_and_MGF_filter_just_before_annotation/`  
 Final synchronization step just before annotation:
 - input (A) imputed matrix CSV (multivariate)  
 - input (B) non-annotated CSV matrix (W4M → MZmine conversion)  
@@ -147,15 +147,15 @@ source("scripts/run_app.R")
 Then run any app with:
 
 ```r
-run_app("apps/W4MineR_MZmine_to_W4M_bidirectional")
+run_app("apps/JaFaR_MZmine_to_W4M_bidirectional")
 ```
 
 Other apps:
 
 ```r
-run_app("apps/W4MineR_Untargeted_Metabolomics_Pipeline_Univariate")
-run_app("apps/W4MineR_Untargeted_Metabolomics_Pipeline_Multivariate")
-run_app("apps/W4MineR_CSV_and_MGF_filter_just_before_annotation")
+run_app("apps/JaFaR_Untargeted_Metabolomics_Pipeline_Univariate")
+run_app("apps/JaFaR_Untargeted_Metabolomics_Pipeline_Multivariate")
+run_app("apps/JaFaR_CSV_and_MGF_filter_just_before_annotation")
 ```
 
 ---
