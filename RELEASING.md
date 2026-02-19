@@ -1,8 +1,8 @@
-# RELEASING.md — W4MineR Suite (GitHub → Zenodo DOI)
+# RELEASING.md — JaFaR-Suite (GitHub → Zenodo DOI)
 
-This document describes how to publish a new **GitHub Release** of **W4MineR Suite** and obtain a **citable Zenodo DOI** for that exact version.
+This document describes how to publish a new **GitHub Release** of **JaFaR-Suite** and obtain a **citable Zenodo DOI** for that exact version.
 
-Repository: https://github.com/JasonFauquet/W4MineR-Suite  
+Repository: https://github.com/CTP-Lab/JaFaR-Suite  
 Zenodo DOI (v1.0.0): https://doi.org/10.5281/zenodo.18669140
 
 ---
@@ -21,7 +21,7 @@ Zenodo DOI (v1.0.0): https://doi.org/10.5281/zenodo.18669140
 1. Log into Zenodo.
 2. Go to **Profile → GitHub**.
 3. Click **Sync** (or **Sync now**).
-4. Find the repository **JasonFauquet/W4MineR-Suite**.
+4. Find the repository **CTP-Lab/JaFaR-Suite**.
 5. Toggle the switch **ON** to enable archiving.
 
 ✅ After this, every new GitHub Release will be automatically archived by Zenodo.
@@ -47,10 +47,10 @@ Examples:
 
 ### 3.1 Run a quick smoke test
 - Launch each app locally to confirm it starts without error:
-  - `apps/W4MineR_MZmine_to_W4M_bidirectional`
-  - `apps/W4MineR_Untargeted_Metabolomics_Pipeline_Univariate`
-  - `apps/W4MineR_Untargeted_Metabolomics_Pipeline_Multivariate`
-  - `apps/W4MineR_CSV_and_MGF_filter_just_before_annotation`
+  - `apps/JaFaR_MZmine_to_W4M_bidirectional`
+  - `apps/JaFaR_Untargeted_Metabolomics_Pipeline_Univariate`
+  - `apps/JaFaR_Untargeted_Metabolomics_Pipeline_Multivariate`
+  - `apps/JaFaR_CSV_and_MGF_filter_just_before_annotation`
 
 ### 3.2 Update version metadata (repo)
 Before creating the GitHub release, update:
@@ -70,7 +70,7 @@ Make sure all changes are pushed to GitHub before creating the release.
 
 ## 4) Create a GitHub Release (this triggers Zenodo)
 
-1. Open: https://github.com/JasonFauquet/W4MineR-Suite
+1. Open: https://github.com/CTP-Lab/JaFaR-Suite
 2. Go to **Releases**.
 3. Click **Draft a new release**.
 4. **Choose a tag**:
@@ -101,7 +101,7 @@ Make sure all changes are pushed to GitHub before creating the release.
 
 ### 5.1 Find the Zenodo record and DOI
 1. Go to Zenodo → **Profile → GitHub**
-2. Find the new release record for **W4MineR Suite**
+2. Find the new release record for **JaFaR Suite**
 3. Open the Zenodo record page
 4. Copy the **version DOI** (example format: `10.5281/zenodo.XXXXXXX`)
 
@@ -130,7 +130,7 @@ Then commit the changes (this commit is **after** the release; it’s normal).
 
 Use the Zenodo **version DOI**:
 
-Fauquet, J. (2026). *W4MineR-Suite* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.18669140
+Fauquet, J. (2026). *JaFaR-Suite* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.18669140
 
 For future releases, replace `v1.0.0` and the DOI accordingly.
 
