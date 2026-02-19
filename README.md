@@ -1,10 +1,10 @@
-# W4MineR Suite
+# JaFaR-Suite
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18681624.svg)](https://doi.org/10.5281/zenodo.18681624)
 
 R/Shiny suite to convert MZmine outputs ↔ W4M tables, run univariate/multivariate stats, and export to GNPS/MetGem for molecular networking.
 
-**W4MineR Suite** is a collection of **R/Shiny apps** designed to bridge **MZmine ↔ Workflow4Metabolomics (W4M/Galaxy)**, perform **univariate & multivariate statistics**, and generate **GNPS / SIRIUS / MetGem-ready files** for molecular networking and downstream annotation.
+**JaFaR-Suite** is a collection of **R/Shiny apps** designed to bridge **MZmine ↔ Workflow4Metabolomics (W4M/Galaxy)**, perform **univariate & multivariate statistics**, and generate **GNPS / SIRIUS / MetGem-ready files** for molecular networking and downstream annotation.
 
 > Not affiliated with MZmine, Workflow4Metabolomics (W4M), GNPS, or MetGem.
 
@@ -119,7 +119,7 @@ Tip (Windows): install **Rtools** if you need compilation for some packages.
 
 1) Download or clone the repository:
 
-https://github.com/CTP-Lab/W4MineR-Suite
+https://github.com/CTP-Lab/JaFaR-Suite
 
 2) Install dependencies (from R):
 
@@ -190,7 +190,7 @@ Output: final synchronized CSV + final MGF
 
 ## How to cite
 
-Fauquet, J. (2026). W4MineR-Suite (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.18681624
+Fauquet, J. (2026). JaFaR-Suite (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.18681624
 
 See also:
 - `CITATION.cff`
