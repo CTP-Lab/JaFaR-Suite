@@ -48,8 +48,8 @@ Examples:
 ### 3.1 Run a quick smoke test
 - Launch each app locally to confirm it starts without error:
   - `apps/JaFaR_MZmine_to_W4M_bidirectional`
-  - `apps/JaFaR_Untargeted_Metabolomics_Pipeline_Univariate`
-  - `apps/JaFaR_Untargeted_Metabolomics_Pipeline_Multivariate`
+  - `apps/JaFaR_Untargeted_Metabolomics_Univariate_Pipeline`
+  - `apps/JaFaR_Untargeted_Metabolomics_Multivariate_Pipeline`
   - `apps/JaFaR_CSV_and_MGF_filter_just_before_annotation`
 
 ### 3.2 Update version metadata (repo)
