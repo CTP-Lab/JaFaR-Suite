@@ -3,7 +3,7 @@
 This document describes how to publish a new **GitHub Release** of **JaFaR-Suite** and obtain a **citable Zenodo DOI** for that exact version.
 
 Repository: https://github.com/CTP-Lab/JaFaR-Suite  
-Zenodo DOI (v1.0.0): https://doi.org/10.5281/zenodo.18669140
+Zenodo DOI (v1.0.0): https://doi.org/10.5281/zenodo.18695152
 
 ---
 
@@ -130,7 +130,7 @@ Then commit the changes (this commit is **after** the release; it’s normal).
 
 Use the Zenodo **version DOI**:
 
-Fauquet, J. (2026). *JaFaR-Suite* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.18669140
+Fauquet, J. (2026). *JaFaR-Suite* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.18695152
 
 For future releases, replace `v1.0.0` and the DOI accordingly.
 
