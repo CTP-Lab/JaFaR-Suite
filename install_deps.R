@@ -1,5 +1,5 @@
 # install_deps.R
-# Auto-detect + install dependencies for W4MineR Suite Shiny apps
+# Auto-detect + install dependencies for JaFaR-Suite Shiny apps
 
 detect_packages <- function(apps_dir = "apps") {
   if (!dir.exists(apps_dir)) {
