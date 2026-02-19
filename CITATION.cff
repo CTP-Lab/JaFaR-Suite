@@ -7,8 +7,8 @@ authors:
     given-names: "Jason"
 version: "1.0.0"
 date-released: "2026-02-19"
-doi: "10.5281/zenodo.18669140"
-url: "https://github.com/JasonFauquet/JaFaR-Suite"
+doi: "10.5281/zenodo.18695152"
+url: "https://github.com/CTP-Lab/JaFaR-Suite"
 license: "MIT"
 keywords:
   - metabolomics
